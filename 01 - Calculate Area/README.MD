@@ -4,7 +4,7 @@
 
 Készíts el a képen látható mini-webalkalmazást, ami a szélesség és a hosszúság megadása alapján kiszámolja a területet.
 
-![kép az alkalmazásról](example.jpg)
+![kép az alkalmazásról](img/example.jpg)
 
 ## Alapvető lépések
 
