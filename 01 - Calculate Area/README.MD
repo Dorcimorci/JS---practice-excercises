@@ -2,7 +2,7 @@
 
 ## Feladatleírás
 
-Készíts el a képen látható mini-webalkalmazást, ami a szélesség és a hosszúság megadása alapján kiszámolja a területet.
+Készítsd el a képen látható mini-webalkalmazást, ami a szélesség és a hosszúság megadása alapján kiszámolja a területet.
 
 ![kép az alkalmazásról](img/example.jpg)
 
