@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/lib/bootstrap-4.0.0/css/bootstrap.min.css"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-center mt-5">
+                        <h1 class="mt-5">Területszámítás</h1>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="width-input">Szélesség (m2)</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="width-input"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="length-input" class="form-label"
+                                >Hosszúság (m2)</label
+                            >
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="length-input"
+                            />
+                        </div>
+
+                        <div>
+                            <h5>
+                                A számított terület:
+                                <span id="calculated-area">0</span>m2
+                            </h5>
+                        </div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <button type="button" class="btn btn-primary">
+                                Számítás
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        <script src="/lib/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
